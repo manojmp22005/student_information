@@ -1,0 +1,67 @@
+
+<html lang="en">
+
+<head>
+    <style>
+        a {  background-color: lightblue;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            text-decoration: none;
+            color: black;
+            border-radius: 10px;
+        }
+
+        #hd {
+            background-color: coral;
+            color: black;
+            padding-top: 25px;
+        }
+
+        .c{
+            background-color: lightgreen;
+            padding: 20px;
+            margin: 20px;
+            width: 25%;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <center><div id="hd">
+        <h1><b>Student Details</b></h1>
+        <hr></center>
+        <center><div id="nav">
+            <a href="Home2.html">Home</a>
+            <a href="Student.html">New Details</a>
+            <a href="modify.html">Modify Details</a>
+            <a href="Remove.html">Remove Details</a>
+            <a href="Read.php">View Details</a>
+        </div><br><hr>
+    </center>
+    </div>
+    <center>
+        <form action="Delete.php" method="post">
+            <h3>Remove Details
+               </h3>
+
+        <div class="c">
+            <table>
+                <tr>
+                    <td>
+            Student id : <input type="text" name="sid" placeholder="   enter id"> <br><br>
+           
+            <button type="reset" style="background-color: blue; color: white; border-radius: 20px;  border: none;" >Clear</button>
+            <button type="submit" style="background-color: blue; color: white; border-radius: 20px;  border: none;">Submit</button>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </form>
+    </center>
+</body>
+
+</html><!DOC

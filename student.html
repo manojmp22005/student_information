@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          a {  background-color: lightblue;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            text-decoration: none;
+            color: black;
+            border-radius: 10px;
+        }
+
+        #hd {
+            background-color: coral;
+            color: black;
+            padding-top: 25px;
+        }
+        
+        .c{
+            background-color: lightgreen;
+            padding: 20px;
+            margin: 20px;
+            width: 25%;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <center><div id="hd">
+        <h1><b>Student Details</b></h1>
+        <hr>
+        </center>
+       <center> <div id="nav">
+            <a href="Home2.html" > Home</a>
+            <a href="Student.html">Student Details</a>
+            <a href="modify.html">Modify Details</a>
+            <a href="Remove.html">Remove Details</a>
+            <a href="Read.php">View Details</a>
+        </div></center>
+    </div><br> <hr>
+    <center>
+        <form action="Save.php" method="post">
+            <h3>Student Details
+               
+            </h3>
+        <div class="c">
+        <table>
+         <tr>
+            <td>
+            Student id : <input type="text" name="sid" placeholder="   enter id.."> <br><br>
+            Student Name : <input type="text" name="sna" placeholder="   enter name.."> <br><br>
+            Student Contact number : <input type="text" name="sco" placeholder="   enter number.."> <br><br>
+            <button type="reset" style="background-color: blue; color: white; border-radius: 20px;  border: none;">Clear</button>
+            <button type="submit" style="background-color: blue; color: white; border-radius: 20px;  border: none;">Submit</button>
+            </td>
+         </tr>
+        </table>
+        </div>
+        </form>
+    </center>
+</body>
+
+</html>
